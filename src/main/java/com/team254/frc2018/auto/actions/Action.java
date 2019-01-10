@@ -1,10 +1,10 @@
-package com.team254.frc2018.auto.actions;
+package com.team5937.frc2018.auto.actions;
 
 /**
  * An interface that describes an iterative action. It is run by an autonomous action, called by the
  * method runAction in AutoModeBase (or more commonly in autonomous modes that extend AutoModeBase)
  *
- * @see com.team254.frc2018.auto.AutoModeBase#runAction
+ * @see com.team5937.frc2018.auto.AutoModeBase#runAction
  */
 public interface Action {
     /**

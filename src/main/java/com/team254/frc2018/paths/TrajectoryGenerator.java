@@ -1,15 +1,15 @@
-package com.team254.frc2018.paths;
+package com.team5937.frc2018.paths;
 
-import com.team254.frc2018.planners.DriveMotionPlanner;
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Pose2dWithCurvature;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.trajectory.Trajectory;
-import com.team254.lib.trajectory.TrajectoryUtil;
-import com.team254.lib.trajectory.timing.CentripetalAccelerationConstraint;
-import com.team254.lib.trajectory.timing.TimedState;
-import com.team254.lib.trajectory.timing.TimingConstraint;
+import com.team5937.frc2018.planners.DriveMotionPlanner;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Pose2dWithCurvature;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.trajectory.Trajectory;
+import com.team5937.lib.trajectory.TrajectoryUtil;
+import com.team5937.lib.trajectory.timing.CentripetalAccelerationConstraint;
+import com.team5937.lib.trajectory.timing.TimedState;
+import com.team5937.lib.trajectory.timing.TimingConstraint;
 
 import java.util.ArrayList;
 import java.util.Arrays;

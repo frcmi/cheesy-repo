@@ -1,10 +1,10 @@
-package com.team254.frc2018.auto.actions;
+package com.team5937.frc2018.auto.actions;
 
-import com.team254.frc2018.statemachines.SuperstructureStateMachine;
-import com.team254.frc2018.states.SuperstructureConstants;
-import com.team254.frc2018.subsystems.Intake;
-import com.team254.frc2018.subsystems.Superstructure;
-import com.team254.lib.util.TimeDelayedBoolean;
+import com.team5937.frc2018.statemachines.SuperstructureStateMachine;
+import com.team5937.frc2018.states.SuperstructureConstants;
+import com.team5937.frc2018.subsystems.Intake;
+import com.team5937.frc2018.subsystems.Superstructure;
+import com.team5937.lib.util.TimeDelayedBoolean;
 import edu.wpi.first.wpilibj.Timer;
 
 public class SetIntaking implements Action {

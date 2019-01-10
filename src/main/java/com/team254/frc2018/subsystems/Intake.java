@@ -1,14 +1,14 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import com.team254.frc2018.Constants;
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.frc2018.statemachines.IntakeStateMachine;
-import com.team254.frc2018.states.IntakeState;
-import com.team254.lib.drivers.TalonSRXChecker;
-import com.team254.lib.drivers.TalonSRXFactory;
+import com.team5937.frc2018.Constants;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.frc2018.statemachines.IntakeStateMachine;
+import com.team5937.frc2018.states.IntakeState;
+import com.team5937.lib.drivers.TalonSRXChecker;
+import com.team5937.lib.drivers.TalonSRXFactory;
 import edu.wpi.first.wpilibj.Solenoid;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;

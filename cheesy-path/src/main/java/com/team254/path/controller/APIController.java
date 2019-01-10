@@ -1,4 +1,4 @@
-package com.team254.path.controller;
+package com.team5937.path.controller;
 
 import java.net.URLDecoder;
 import java.util.ArrayList;
@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Pose2dWithCurvature;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.spline.QuinticHermiteSpline;
-import com.team254.lib.spline.Spline;
-import com.team254.lib.spline.SplineGenerator;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Pose2dWithCurvature;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.spline.QuinticHermiteSpline;
+import com.team5937.lib.spline.Spline;
+import com.team5937.lib.spline.SplineGenerator;
 
 @RestController
 @RequestMapping("api")

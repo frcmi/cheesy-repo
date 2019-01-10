@@ -1,8 +1,8 @@
-package com.team254.lib.spline;
+package com.team5937.lib.spline;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
 
 /**
  * Temporary spline for testing

@@ -1,6 +1,6 @@
-package com.team254.frc2018.controlboard;
+package com.team5937.frc2018.controlboard;
 
-import com.team254.frc2018.Constants;
+import com.team5937.frc2018.Constants;
 import edu.wpi.first.wpilibj.GenericHID;
 import edu.wpi.first.wpilibj.Joystick;
 

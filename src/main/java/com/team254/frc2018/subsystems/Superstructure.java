@@ -1,15 +1,15 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
-import com.team254.frc2018.Constants;
-import com.team254.frc2018.Robot;
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.frc2018.statemachines.SuperstructureStateMachine;
-import com.team254.frc2018.states.IntakeState;
-import com.team254.frc2018.states.SuperstructureCommand;
-import com.team254.frc2018.states.SuperstructureConstants;
-import com.team254.frc2018.states.SuperstructureState;
-import com.team254.lib.util.Util;
+import com.team5937.frc2018.Constants;
+import com.team5937.frc2018.Robot;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.frc2018.statemachines.SuperstructureStateMachine;
+import com.team5937.frc2018.states.IntakeState;
+import com.team5937.frc2018.states.SuperstructureCommand;
+import com.team5937.frc2018.states.SuperstructureConstants;
+import com.team5937.frc2018.states.SuperstructureState;
+import com.team5937.lib.util.Util;
 import edu.wpi.first.wpilibj.Solenoid;
 
 /**

@@ -1,7 +1,7 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.ITranslation2d;
-import com.team254.lib.geometry.Translation2d;
+import com.team5937.lib.geometry.ITranslation2d;
+import com.team5937.lib.geometry.Translation2d;
 
 public class VelocityLimitRegionConstraint<S extends ITranslation2d<S>> implements TimingConstraint<S> {
     protected final Translation2d min_corner_;

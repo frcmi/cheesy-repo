@@ -1,9 +1,9 @@
-package com.team254.frc2018.statemachines;
+package com.team5937.frc2018.statemachines;
 
-import com.team254.frc2018.states.IntakeState;
-import com.team254.frc2018.states.SuperstructureConstants;
-import com.team254.frc2018.states.TimedLEDState;
-import com.team254.lib.util.TimeDelayedBoolean;
+import com.team5937.frc2018.states.IntakeState;
+import com.team5937.frc2018.states.SuperstructureConstants;
+import com.team5937.frc2018.states.TimedLEDState;
+import com.team5937.lib.util.TimeDelayedBoolean;
 
 public class IntakeStateMachine {
     public final static double kActuationTime = 0.0;

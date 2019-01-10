@@ -1,9 +1,9 @@
-package com.team254.frc2018.auto.modes;
+package com.team5937.frc2018.auto.modes;
 
-import com.team254.frc2018.auto.AutoModeBase;
-import com.team254.frc2018.auto.AutoModeEndedException;
-import com.team254.frc2018.auto.actions.OpenLoopDrive;
-import com.team254.frc2018.auto.actions.WaitAction;
+import com.team5937.frc2018.auto.AutoModeBase;
+import com.team5937.frc2018.auto.AutoModeEndedException;
+import com.team5937.frc2018.auto.actions.OpenLoopDrive;
+import com.team5937.frc2018.auto.actions.WaitAction;
 
 public class CrossAutoLineMode extends AutoModeBase {
 

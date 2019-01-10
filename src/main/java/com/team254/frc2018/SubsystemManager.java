@@ -1,9 +1,9 @@
-package com.team254.frc2018;
+package com.team5937.frc2018;
 
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.frc2018.loops.Looper;
-import com.team254.frc2018.subsystems.Subsystem;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.frc2018.loops.Looper;
+import com.team5937.frc2018.subsystems.Subsystem;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.team254.path.config;
+package com.team5937.path.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

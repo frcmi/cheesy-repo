@@ -1,6 +1,6 @@
-package com.team254.frc2018.auto.actions;
+package com.team5937.frc2018.auto.actions;
 
-import com.team254.frc2018.RobotState;
+import com.team5937.frc2018.RobotState;
 import edu.wpi.first.wpilibj.Timer;
 
 public class WaitUntilCrossXBoundaryCommand implements Action {

@@ -1,12 +1,12 @@
-package com.team254.frc2018.paths;
+package com.team5937.frc2018.paths;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Pose2dWithCurvature;
-import com.team254.lib.geometry.Twist2d;
-import com.team254.lib.trajectory.TimedView;
-import com.team254.lib.trajectory.TrajectoryIterator;
-import com.team254.lib.trajectory.timing.TimedState;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Pose2dWithCurvature;
+import com.team5937.lib.geometry.Twist2d;
+import com.team5937.lib.trajectory.TimedView;
+import com.team5937.lib.trajectory.TrajectoryIterator;
+import com.team5937.lib.trajectory.timing.TimedState;
+import com.team5937.lib.util.Util;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

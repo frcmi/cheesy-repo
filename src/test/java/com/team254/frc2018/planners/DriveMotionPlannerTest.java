@@ -1,14 +1,14 @@
-package com.team254.frc2018.planners;
+package com.team5937.frc2018.planners;
 
-import com.team254.frc2018.Constants;
-import com.team254.frc2018.Kinematics;
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.geometry.Twist2d;
-import com.team254.lib.trajectory.TimedView;
-import com.team254.lib.trajectory.TrajectoryIterator;
-import com.team254.lib.trajectory.timing.CentripetalAccelerationConstraint;
+import com.team5937.frc2018.Constants;
+import com.team5937.frc2018.Kinematics;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.geometry.Twist2d;
+import com.team5937.lib.trajectory.TimedView;
+import com.team5937.lib.trajectory.TrajectoryIterator;
+import com.team5937.lib.trajectory.timing.CentripetalAccelerationConstraint;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

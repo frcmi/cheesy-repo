@@ -1,9 +1,9 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.frc2018.states.LEDState;
-import com.team254.frc2018.states.TimedLEDState;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.frc2018.states.LEDState;
+import com.team5937.frc2018.states.TimedLEDState;
 
 public class LED extends Subsystem {
     private static final double kHangingBlinkDuration = 0.5; // In sec

@@ -1,4 +1,4 @@
-package com.team254.path.config;
+package com.team5937.path.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

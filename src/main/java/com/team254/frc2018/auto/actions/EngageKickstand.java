@@ -1,6 +1,6 @@
-package com.team254.frc2018.auto.actions;
+package com.team5937.frc2018.auto.actions;
 
-import com.team254.frc2018.subsystems.Superstructure;
+import com.team5937.frc2018.subsystems.Superstructure;
 
 public class EngageKickstand extends RunOnceAction {
     private boolean mEngage;

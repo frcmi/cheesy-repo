@@ -1,7 +1,7 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.State;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.State;
+import com.team5937.lib.util.Util;
 
 public class DistanceView<S extends State<S>> implements TrajectoryView<S> {
     protected final Trajectory<S> trajectory_;

@@ -1,11 +1,11 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.*;
-import com.team254.lib.spline.QuinticHermiteSpline;
-import com.team254.lib.spline.Spline;
-import com.team254.lib.spline.SplineGenerator;
-import com.team254.lib.trajectory.timing.TimedState;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.*;
+import com.team5937.lib.spline.QuinticHermiteSpline;
+import com.team5937.lib.spline.Spline;
+import com.team5937.lib.spline.SplineGenerator;
+import com.team5937.lib.trajectory.timing.TimedState;
+import com.team5937.lib.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;

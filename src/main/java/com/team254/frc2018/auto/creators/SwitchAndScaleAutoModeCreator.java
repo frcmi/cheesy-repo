@@ -1,8 +1,8 @@
-package com.team254.frc2018.auto.creators;
+package com.team5937.frc2018.auto.creators;
 
-import com.team254.frc2018.AutoFieldState;
-import com.team254.frc2018.auto.AutoModeBase;
-import com.team254.frc2018.auto.modes.SwitchAndScaleMode;
+import com.team5937.frc2018.AutoFieldState;
+import com.team5937.frc2018.auto.AutoModeBase;
+import com.team5937.frc2018.auto.modes.SwitchAndScaleMode;
 
 public class SwitchAndScaleAutoModeCreator implements AutoModeCreator {
 

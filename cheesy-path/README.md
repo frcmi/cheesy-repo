@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 - jstl 1.2
 
 ### Installing
-- Clone this Repository (`git clone https://github.com/Team254/cheesy-path.git`)
+- Clone this Repository (`git clone https://github.com/Team5937/cheesy-path.git`)
 - [Download](https://maven.apache.org/download.cgi)  and [Install](https://maven.apache.org/install.html) Maven or use Homebrew (`brew install maven`)
 - Install Dependencies (`mvn clean install`)
 - Run App (`mvn tomcat7:run`)

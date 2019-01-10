@@ -1,9 +1,9 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.frc2018.statemachines.IntakeStateMachine;
-import com.team254.frc2018.statemachines.SuperstructureStateMachine;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.frc2018.statemachines.IntakeStateMachine;
+import com.team5937.frc2018.statemachines.SuperstructureStateMachine;
 import edu.wpi.first.wpilibj.Compressor;
 
 public class Infrastructure extends Subsystem {

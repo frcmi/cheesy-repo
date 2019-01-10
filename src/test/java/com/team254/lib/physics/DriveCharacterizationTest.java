@@ -1,4 +1,4 @@
-package com.team254.lib.physics;
+package com.team5937.lib.physics;
 
 import org.junit.jupiter.api.Test;
 

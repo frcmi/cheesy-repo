@@ -1,6 +1,6 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.Pose2dWithCurvature;
+import com.team5937.lib.geometry.Pose2dWithCurvature;
 
 public class CentripetalAccelerationConstraint implements TimingConstraint<Pose2dWithCurvature> {
     final double mMaxCentripetalAccel;

@@ -1,8 +1,8 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
 import com.ctre.phoenix.CANifier;
 import com.ctre.phoenix.CANifierStatusFrame;
-import com.team254.frc2018.Constants;
+import com.team5937.frc2018.Constants;
 
 public class CarriageCanifier extends Subsystem {
     private static CarriageCanifier mInstance;

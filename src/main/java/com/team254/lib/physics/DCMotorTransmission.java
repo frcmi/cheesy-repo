@@ -1,6 +1,6 @@
-package com.team254.lib.physics;
+package com.team5937.lib.physics;
 
-import com.team254.lib.util.Util;
+import com.team5937.lib.util.Util;
 
 /**
  * Model of a DC motor rotating a shaft.  All parameters refer to the output (e.g. should already consider gearing

@@ -1,7 +1,7 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.util.Util;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

@@ -1,7 +1,7 @@
-package com.team254.lib.physics;
+package com.team5937.lib.physics;
 
-import com.team254.lib.util.PolynomialRegression;
-import com.team254.lib.util.Util;
+import com.team5937.lib.util.PolynomialRegression;
+import com.team5937.lib.util.Util;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.team254.frc2018.auto.actions;
+package com.team5937.frc2018.auto.actions;
 
-import com.team254.frc2018.RobotState;
-import com.team254.frc2018.subsystems.Drive;
-import com.team254.lib.physics.DriveCharacterization;
-import com.team254.lib.util.DriveSignal;
-import com.team254.lib.util.ReflectingCSVWriter;
+import com.team5937.frc2018.RobotState;
+import com.team5937.frc2018.subsystems.Drive;
+import com.team5937.lib.physics.DriveCharacterization;
+import com.team5937.lib.util.DriveSignal;
+import com.team5937.lib.util.ReflectingCSVWriter;
 import edu.wpi.first.wpilibj.Timer;
 
 import java.util.List;

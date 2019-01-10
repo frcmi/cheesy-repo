@@ -1,11 +1,11 @@
-package com.team254.frc2018.statemachines;
+package com.team5937.frc2018.statemachines;
 
-import com.team254.frc2018.planners.SuperstructureMotionPlanner;
-import com.team254.frc2018.states.SuperstructureCommand;
-import com.team254.frc2018.states.SuperstructureConstants;
-import com.team254.frc2018.states.SuperstructureState;
-import com.team254.frc2018.subsystems.Elevator;
-import com.team254.lib.util.Util;
+import com.team5937.frc2018.planners.SuperstructureMotionPlanner;
+import com.team5937.frc2018.states.SuperstructureCommand;
+import com.team5937.frc2018.states.SuperstructureConstants;
+import com.team5937.frc2018.states.SuperstructureState;
+import com.team5937.frc2018.subsystems.Elevator;
+import com.team5937.lib.util.Util;
 
 public class SuperstructureStateMachine {
     public enum WantedAction {

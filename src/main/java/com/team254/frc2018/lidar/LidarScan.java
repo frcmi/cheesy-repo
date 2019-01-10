@@ -1,7 +1,7 @@
-package com.team254.frc2018.lidar;
+package com.team5937.frc2018.lidar;
 
-import com.team254.frc2018.Constants;
-import com.team254.frc2018.lidar.icp.Point;
+import com.team5937.frc2018.Constants;
+import com.team5937.frc2018.lidar.icp.Point;
 
 import java.util.ArrayList;
 

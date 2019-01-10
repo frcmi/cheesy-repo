@@ -1,9 +1,9 @@
-package com.team254.lib.drivers;
+package com.team5937.lib.drivers;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import com.team254.frc2018.subsystems.Subsystem;
-import com.team254.lib.util.Util;
+import com.team5937.frc2018.subsystems.Subsystem;
+import com.team5937.lib.util.Util;
 import edu.wpi.first.wpilibj.Timer;
 
 import java.util.ArrayList;

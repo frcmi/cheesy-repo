@@ -1,11 +1,11 @@
-package com.team254.frc2018.auto.modes;
+package com.team5937.frc2018.auto.modes;
 
-import com.team254.frc2018.auto.AutoConstants;
-import com.team254.frc2018.auto.AutoModeBase;
-import com.team254.frc2018.auto.AutoModeEndedException;
-import com.team254.frc2018.auto.actions.*;
-import com.team254.frc2018.paths.TrajectoryGenerator;
-import com.team254.frc2018.states.SuperstructureConstants;
+import com.team5937.frc2018.auto.AutoConstants;
+import com.team5937.frc2018.auto.AutoModeBase;
+import com.team5937.frc2018.auto.AutoModeEndedException;
+import com.team5937.frc2018.auto.actions.*;
+import com.team5937.frc2018.paths.TrajectoryGenerator;
+import com.team5937.frc2018.states.SuperstructureConstants;
 
 import java.util.Arrays;
 

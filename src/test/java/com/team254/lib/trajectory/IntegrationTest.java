@@ -1,15 +1,15 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Pose2dWithCurvature;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.physics.DCMotorTransmission;
-import com.team254.lib.physics.DifferentialDrive;
-import com.team254.lib.trajectory.timing.DifferentialDriveDynamicsConstraint;
-import com.team254.lib.trajectory.timing.TimedState;
-import com.team254.lib.trajectory.timing.TimingUtil;
-import com.team254.lib.util.Units;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Pose2dWithCurvature;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.physics.DCMotorTransmission;
+import com.team5937.lib.physics.DifferentialDrive;
+import com.team5937.lib.trajectory.timing.DifferentialDriveDynamicsConstraint;
+import com.team5937.lib.trajectory.timing.TimedState;
+import com.team5937.lib.trajectory.timing.TimingUtil;
+import com.team5937.lib.util.Units;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

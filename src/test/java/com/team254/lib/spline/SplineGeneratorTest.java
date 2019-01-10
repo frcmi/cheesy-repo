@@ -1,7 +1,7 @@
-package com.team254.lib.spline;
+package com.team5937.lib.spline;
 
-import com.team254.lib.geometry.*;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.*;
+import com.team5937.lib.util.Util;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

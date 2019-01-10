@@ -1,6 +1,6 @@
-package com.team254.frc2018;
+package com.team5937.frc2018;
 
-import com.team254.frc2018.controlboard.*;
+import com.team5937.frc2018.controlboard.*;
 
 public class ControlBoard implements IControlBoard {
     private static ControlBoard mInstance = null;

@@ -1,8 +1,8 @@
-package com.team254.frc2018.lidar;
+package com.team5937.frc2018.lidar;
 
-import com.team254.frc2018.RobotState;
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Translation2d;
+import com.team5937.frc2018.RobotState;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Translation2d;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

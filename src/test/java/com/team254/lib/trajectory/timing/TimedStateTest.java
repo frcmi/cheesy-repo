@@ -1,8 +1,8 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.util.Util;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,8 +1,8 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.State;
-import com.team254.lib.trajectory.DistanceView;
-import com.team254.lib.trajectory.Trajectory;
+import com.team5937.lib.geometry.State;
+import com.team5937.lib.trajectory.DistanceView;
+import com.team5937.lib.trajectory.Trajectory;
 
 import java.util.ArrayList;
 import java.util.List;

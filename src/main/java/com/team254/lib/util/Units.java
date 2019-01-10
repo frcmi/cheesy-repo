@@ -1,4 +1,4 @@
-package com.team254.lib.util;
+package com.team5937.lib.util;
 
 public class Units {
     public static double rpm_to_rads_per_sec(double rpm) {
@@ -10,11 +10,11 @@ public class Units {
     }
 
     public static double inches_to_meters(double inches) {
-        return inches * 0.0254;
+        return inches * 0.05937;
     }
 
     public static double meters_to_inches(double meters) {
-        return meters / 0.0254;
+        return meters / 0.05937;
     }
 
     public static double feet_to_meters(double feet) {

@@ -1,7 +1,7 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.*;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.*;
+import com.team5937.lib.util.Util;
 
 public class PurePursuitController<S extends ITranslation2d<S>> implements IPathFollower {
     protected final TrajectoryIterator<S> iterator_;

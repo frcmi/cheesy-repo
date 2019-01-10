@@ -1,8 +1,8 @@
-package com.team254.lib.trajectory;
+package com.team5937.lib.trajectory;
 
-import com.team254.lib.geometry.State;
-import com.team254.lib.trajectory.timing.TimedState;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.State;
+import com.team5937.lib.trajectory.timing.TimedState;
+import com.team5937.lib.util.Util;
 
 public class TimedView<S extends State<S>> implements TrajectoryView<TimedState<S>> {
     protected final Trajectory<TimedState<S>> trajectory_;

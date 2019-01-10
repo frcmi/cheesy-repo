@@ -1,6 +1,6 @@
-package com.team254.lib.physics;
+package com.team5937.lib.physics;
 
-import com.team254.lib.util.Util;
+import com.team5937.lib.util.Util;
 
 public class PhysicsTest {
     public static final double kTestEpsilon = Util.kEpsilon;

@@ -1,4 +1,4 @@
-package com.team254.lib.util;
+package com.team5937.lib.util;
 
 /**
  * InverseInterpolable is an interface used by an Interpolating Tree as the Key type. Given two endpoint keys and a

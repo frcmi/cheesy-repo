@@ -1,4 +1,4 @@
-package com.team254.frc2018.auto;
+package com.team5937.frc2018.auto;
 
 /**
  * Exception thrown when an auto mode ends unexpectedly

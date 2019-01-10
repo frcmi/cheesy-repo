@@ -1,4 +1,4 @@
-package com.team254.lib.geometry;
+package com.team5937.lib.geometry;
 
 public interface ICurvature<S> extends State<S> {
     double getCurvature();

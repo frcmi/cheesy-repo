@@ -1,9 +1,9 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.ICurvature;
-import com.team254.lib.geometry.IPose2d;
-import com.team254.lib.physics.DifferentialDrive;
-import com.team254.lib.util.Units;
+import com.team5937.lib.geometry.ICurvature;
+import com.team5937.lib.geometry.IPose2d;
+import com.team5937.lib.physics.DifferentialDrive;
+import com.team5937.lib.util.Units;
 
 public class DifferentialDriveDynamicsConstraint<S extends IPose2d<S> & ICurvature<S>> implements TimingConstraint<S> {
 

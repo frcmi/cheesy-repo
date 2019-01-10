@@ -1,17 +1,17 @@
-package com.team254.frc2018.subsystems;
+package com.team5937.frc2018.subsystems;
 
 import com.ctre.phoenix.ErrorCode;
 import com.ctre.phoenix.ParamEnum;
 import com.ctre.phoenix.motorcontrol.*;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
-import com.team254.frc2018.Constants;
-import com.team254.frc2018.loops.ILooper;
-import com.team254.frc2018.loops.Loop;
-import com.team254.lib.drivers.TalonSRXChecker;
-import com.team254.lib.drivers.TalonSRXFactory;
-import com.team254.lib.drivers.TalonSRXUtil;
-import com.team254.lib.util.ReflectingCSVWriter;
-import com.team254.lib.util.Util;
+import com.team5937.frc2018.Constants;
+import com.team5937.frc2018.loops.ILooper;
+import com.team5937.frc2018.loops.Loop;
+import com.team5937.lib.drivers.TalonSRXChecker;
+import com.team5937.lib.drivers.TalonSRXFactory;
+import com.team5937.lib.drivers.TalonSRXUtil;
+import com.team5937.lib.util.ReflectingCSVWriter;
+import com.team5937.lib.util.Util;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 

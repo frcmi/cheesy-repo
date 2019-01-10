@@ -1,7 +1,7 @@
-package com.team254.frc2018;
+package com.team5937.frc2018;
 
-import com.team254.frc2018.auto.AutoModeBase;
-import com.team254.frc2018.auto.creators.*;
+import com.team5937.frc2018.auto.AutoModeBase;
+import com.team5937.frc2018.auto.creators.*;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 

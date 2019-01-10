@@ -1,4 +1,4 @@
-package com.team254.path.config;
+package com.team5937.path.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.team254.path")
+@ComponentScan(basePackages = "com.team5937.path")
 public class AppConfig extends WebMvcConfigurerAdapter {
     @Bean
     public ViewResolver viewResolver() {

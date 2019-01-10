@@ -1,10 +1,10 @@
-package com.team254.lib.spline;
+package com.team5937.lib.spline;
 
 import java.util.List;
 
-import com.team254.lib.geometry.Pose2d;
-import com.team254.lib.geometry.Rotation2d;
-import com.team254.lib.geometry.Translation2d;
+import com.team5937.lib.geometry.Pose2d;
+import com.team5937.lib.geometry.Rotation2d;
+import com.team5937.lib.geometry.Translation2d;
 
 public class QuinticHermiteSpline extends Spline {
     private static final double kEpsilon = 1e-5;

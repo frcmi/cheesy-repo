@@ -1,6 +1,6 @@
-package com.team254.frc2018.lidar;
+package com.team5937.frc2018.lidar;
 
-import com.team254.frc2018.Constants;
+import com.team5937.frc2018.Constants;
 import edu.wpi.first.wpilibj.Timer;
 
 import java.io.BufferedReader;

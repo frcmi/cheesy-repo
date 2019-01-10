@@ -1,6 +1,6 @@
-package com.team254.lib.spline;
+package com.team5937.lib.spline;
 
-import com.team254.lib.geometry.*;
+import com.team5937.lib.geometry.*;
 
 import java.util.ArrayList;
 import java.util.List;

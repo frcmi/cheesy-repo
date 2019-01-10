@@ -1,10 +1,10 @@
-package com.team254.frc2018.auto.modes;
+package com.team5937.frc2018.auto.modes;
 
-import com.team254.frc2018.auto.AutoModeBase;
-import com.team254.frc2018.auto.AutoModeEndedException;
-import com.team254.frc2018.auto.actions.DriveTrajectory;
-import com.team254.frc2018.paths.TrajectoryGenerator;
-import com.team254.frc2018.subsystems.Drive;
+import com.team5937.frc2018.auto.AutoModeBase;
+import com.team5937.frc2018.auto.AutoModeEndedException;
+import com.team5937.frc2018.auto.actions.DriveTrajectory;
+import com.team5937.frc2018.paths.TrajectoryGenerator;
+import com.team5937.frc2018.subsystems.Drive;
 
 public class TestMode extends AutoModeBase {
     @Override

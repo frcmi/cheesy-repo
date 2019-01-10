@@ -1,12 +1,12 @@
-package com.team254.lib.trajectory.timing;
+package com.team5937.lib.trajectory.timing;
 
-import com.team254.lib.geometry.ITranslation2d;
-import com.team254.lib.geometry.State;
-import com.team254.lib.geometry.Translation2d;
-import com.team254.lib.trajectory.DistanceView;
-import com.team254.lib.trajectory.Trajectory;
-import com.team254.lib.trajectory.timing.TimingConstraint.MinMaxAcceleration;
-import com.team254.lib.util.Util;
+import com.team5937.lib.geometry.ITranslation2d;
+import com.team5937.lib.geometry.State;
+import com.team5937.lib.geometry.Translation2d;
+import com.team5937.lib.trajectory.DistanceView;
+import com.team5937.lib.trajectory.Trajectory;
+import com.team5937.lib.trajectory.timing.TimingConstraint.MinMaxAcceleration;
+import com.team5937.lib.util.Util;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
