@@ -1,6 +1,6 @@
 # FRC 2018
 
-Team 5937's 2018 FRC robot code for Nut. Nut's code is written in Java and is based off of WPILib's Java control system.
+Team 5937's 2018 FRC robot code for Kirby. Kirby's code is written in Java and is based off of WPILib's Java control system.
 
 The code is divided into several packages, each responsible for a different aspect of the robot function. This README explains setup instructions, the function of each package, and some of the variable naming conventions used. Additional information about each specific class can be found in that class' Java file.
 
