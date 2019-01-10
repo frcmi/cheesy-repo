@@ -99,13 +99,16 @@ td>input, td>input:focus {
     background-color: #600;
 }
 
-.delete>button {
-	background-color: #FF1900;
+.actions button {
 	font-weight: bold;
 	font-size: 16px;
 }
 
-.delete>button:hover {
+.delbtn {
+	background-color: #FF1900;
+}
+
+.delbtn:hover {
 	background-color: #EE1900;
 }
 
@@ -136,5 +139,5 @@ button:focus {
 span.checkbox {
 	font-size: 15px;
 	float: right;
-	padding: 3px
+	padding: 3px;
 }
