@@ -1,4 +1,4 @@
-* {
+body {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -38,7 +38,7 @@ table {
 }
 
 thead {
-	background-color: #0070FF;
+	background-color: #800;
 	color: white;
 }
 
@@ -78,10 +78,10 @@ td>input, td>input:focus {
     padding-bottom: 2px;
     background: repeating-linear-gradient(
             45deg,
-            #30A0FF,
-            #30A0FF 2px,
-            #0070FF 2px,
-            #0070FF 4px
+            #600,
+            #600 2px,
+            #f00 2px,
+            #f00 4px
     );
 }
 
@@ -90,13 +90,13 @@ td>input, td>input:focus {
 }
 
 .enabled>button {
-    background-color: #42BBFF;
+    background-color: #500;
     font-weight: bold;
     font-size: 16px;
 }
 
 .enabled>button:hover {
-    background-color: #42AAFF;
+    background-color: #600;
 }
 
 .delete>button {
@@ -115,7 +115,7 @@ td>input, td>input:focus {
 }
 
 button {
-	background-color: #0070FF;
+	background-color: #800;
 	border: none;
 	padding: 7px 12px;
 	border-radius: 4px;
@@ -126,7 +126,7 @@ button {
 }
 
 button:hover {
-	background-color: #0062EE;
+	background-color: #700;
 }
 
 button:focus {
