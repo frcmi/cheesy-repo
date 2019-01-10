@@ -1,0 +1,11 @@
+#canvases {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+#canvases canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -421,13 +421,15 @@ function addPointEl(x, y, heading, comments, enabled) {
 	$("#pathtbl").append(`
 	<tr>
 		<td class='drag-handler'></td>"
-		<td class='x'><input type='number' value='${x}'></td>"
-		<td class='y'><input type='number' value='${y}'></td>
-		<td class='heading'><input type='number' value='${heading}'></td>
-		<td class='comments'><input type='text' value='${comments}' placeholder='Comments'></td>
+		<td class='x'><input class='form-control' type='number' value='${x}'></td>"
+		<td class='y'><input class='form-control' type='number' value='${y}'></td>
+		<td class='heading'><input class='form-control' type='number' value='${heading}'></td>
+		<td class='comments'><input class='form-control' type='text' value='${comments}' placeholder='Comments'></td>
 		<td class='enabled'><input type='checkbox' ${enabled?'checked':''}></td>
 		<td class='actions'>
-			<button class='delbtn' onclick='$(this).parent().parent().remove();update()'>&times;</button>
+			<div class='btn-group'>
+				<button class='delbtn btn btn-danger btn-sm' onclick='$(this).parent().parent().parent().remove();update()'><span class='glyphicon glyphicon-trash'></span></button>
+			</div>	
 		</td>
 	</tr>`);
 }
@@ -556,6 +558,19 @@ function drawSplines(fill, animate) {
 			}
 		});
 	}
+}
+
+function importJson() {
+	var d = prompt("Enter the JSON:")
+	var points = JSON.parse(d).points
+	$("#pathtbl").html("");
+
+	points.forEach(function(point) {
+		addPointEl(point.x, point.y, point.heading, point.comment, point.enabled);
+	});
+}
+
+function exportJson() {
 }
 
 $("table tbody").sortable({
