@@ -374,13 +374,13 @@ function init() {
 	ctx.clearRect(0, 0, width, height);
 
 	image = new Image();
-	image.src = '/resources/img/field.png';
+	image.src = 'resources/img/field.png';
 	image.onload = function() {
 		ctxBackground.drawImage(image, 0, 0, width, height);
 		update();
 	};
 	imageFlipped = new Image();
-	imageFlipped.src = '/resources/img/fieldFlipped.png';
+	imageFlipped.src = 'resources/img/fieldFlipped.png';
 
 	// Create initial point
 	addPointEl(0, 0, 0, "Initial Point", true);
@@ -478,14 +478,12 @@ function update() {
 	draw(1);
 
 	$.post({
-		url: "/api/calculate_splines",
+		url: "api/calculate_splines",
 		data: data,
 		success: function(data) {
 			if (data === "no") {
 				return;
 			}
-
-			console.log(data);
 
 			let points = JSON.parse(data).points;
 		
@@ -614,14 +612,18 @@ function compilePoints() {
 	});
 
 	$.post({
-		url: "/api/calculate_splines",
+		url: "api/calculate_splines",
 		data: data,
 		success: function(data) {
 			if (data === "no") {
 				return;
 			}
-
-			prompt("Points:", data)
+			console.log(data);
+			var cd = "";
+			JSON.parse(data).points.forEach(function(i) {
+				cd += `${i.x},${i.y},${i.rotation},${i.curvature};`;
+			});
+			prompt("CSV:", cd);
 		}
 	});
 }
