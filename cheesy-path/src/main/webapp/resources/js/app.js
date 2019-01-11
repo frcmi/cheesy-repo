@@ -560,6 +560,7 @@ function drawSplines(fill, animate) {
 	}
 }
 
+
 function importJson() {
 	var d = prompt("Enter the JSON:")
 	var points = JSON.parse(d).points
@@ -571,6 +572,58 @@ function importJson() {
 }
 
 function exportJson() {
+	var data = []
+
+	$('tbody').children('tr').each(function() {
+		let x = parseInt($($($(this).children()).children()[0]).val());
+		let y = parseInt($($($(this).children()).children()[1]).val());
+		let heading = parseInt($($($(this).children()).children()[2]).val());
+		if (isNaN(heading)) {
+			heading = 0;
+		}
+		let comment = ($($($(this).children()).children()[3]).val());
+		let enabled = ($($($(this).children()).children()[4]).prop('checked'));
+		if (enabled) {
+			waypoints.push(new Pose2d(new Translation2d(x, y), Rotation2d.fromDegrees(heading), comment));
+			data.push({x: x, y: y, heading: heading, comment: comment, enabled: enabled});
+		}
+	});
+
+	let obj = {points: data};
+	let out = JSON.stringify(obj);
+
+	prompt("Copy this JSON:", out);
+}
+
+function compilePoints() {
+	waypoints = [];
+	let data = "";
+	$('tbody').children('tr').each(function() {
+		let x = parseInt($($($(this).children()).children()[0]).val());
+		let y = parseInt($($($(this).children()).children()[1]).val());
+		let heading = parseInt($($($(this).children()).children()[2]).val());
+		if (isNaN(heading)) {
+			heading = 0;
+		}
+		let comment = ($($($(this).children()).children()[3]).val());
+		let enabled = ($($($(this).children()).children()[4]).prop('checked'));
+		if (enabled) {
+			waypoints.push(new Pose2d(new Translation2d(x, y), Rotation2d.fromDegrees(heading), comment));
+			data += x + "," + y + "," + heading + ";";
+		}
+	});
+
+	$.post({
+		url: "/api/calculate_splines",
+		data: data,
+		success: function(data) {
+			if (data === "no") {
+				return;
+			}
+
+			prompt("Points:", data)
+		}
+	});
 }
 
 $("table tbody").sortable({

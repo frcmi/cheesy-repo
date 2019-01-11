@@ -25,6 +25,7 @@
 							<button class='btn btn-default' onclick='flipField()'>Flip Field</button>
 							<button class='btn btn-default' onclick='importJson()'>Import</button>
 							<button class='btn btn-default' onclick='exportJson()'>Export</button>
+							<button class='btn btn-default' onclick='compilePoints()'>Compile</button>
 						</div>
 					</div>
 					<div class='col-md-2'>
