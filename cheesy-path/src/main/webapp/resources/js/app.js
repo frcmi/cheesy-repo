@@ -8,15 +8,15 @@ let wto;
 let change = "propertychange change click keyup input paste";
 let animating = false;
 
-const fieldWidth = 886; // inches
-const fieldHeight = 360; // inches
+const fieldWidth = 648; // inches
+const fieldHeight = 324; // inches
 const xOffset = 120;
 const yOffset = 180;
 const width = 1604; //pixels
 const height = 651; //pixels
 
-const robotWidth = 28; // inches
-const robotHeight = 33; // inches
+const robotWidth = 31; // inches
+const robotHeight = 28.5; // inches
 
 const waypointRadius = 7;
 const splineWidth = 2;
@@ -293,7 +293,7 @@ class Pose2d {
 	}
 	
 	toString() {
-		return "new Pose2d(new Translation2d(" + this.translation.x + ", " + this.translation.y + "), new Rotation2d(" + this.rotation.cos + ", " + this.rotation.sin + ", " + this.rotation.normalize + "))";
+		return `new Pose2d(new Translation2d(this.translation.x, this.translation.y), new Rotation2d(${this.rotation.cos}, ${this.rotation.sin}, ${this.rotation.normalize}))`;
 	}
 
 	transform(other) {
@@ -538,7 +538,7 @@ function drawSplines(fill, animate) {
 			let hue = Math.round(180 * (i++ / splinePoints.length));
 
 			let previous = ctx.globalCompositeOperation;
-			fillRobot(splinePoint, splinePoint.rotation.getRadians(), 'hsla(' + hue + ', 100%, 50%, 0.025)');
+			fillRobot(splinePoint, splinePoint.rotation.getRadians(), `hsla(${hue}, 100%, 50%, 0.025)`);
 			ctx.globalCompositeOperation = "source-over";
 			drawRobot(splinePoint, splinePoint.rotation.getRadians());
 			splinePoint.draw(false, splineWidth);
@@ -550,7 +550,7 @@ function drawSplines(fill, animate) {
 
 			if (fill) {
 				let hue = Math.round(180 * (i++ / splinePoints.length));
-				fillRobot(splinePoint, splinePoint.rotation.getRadians(), 'hsla(' + hue + ', 100%, 50%, 0.025)');
+				fillRobot(splinePoint, splinePoint.rotation.getRadians(), `hsla(${hue}, 100%, 50%, 0.025)`);
 			} else {
 				drawRobot(splinePoint, splinePoint.rotation.getRadians());
 			}
